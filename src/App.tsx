@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {useState} from 'react';
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Content from "./components/Content"
+import WelcomeNote from "./components/WelcomeNote"
+import Form from "./components/Form"
+import {DataType} from "./types/Data"
 
 function App() {
+
+  const [data, setData] = useState<DataType>({} as DataType)
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <Header />
+      <section className="section">
+        <WelcomeNote />
+        {(data.name) ? (
+          <Content
+            data={data}
+          />
+        ) : (
+          <Form 
+            setData={setData}
+          />
+        )}
+      </section>
+      <Footer />
+    </main>
   );
 }
 

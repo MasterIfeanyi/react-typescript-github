@@ -18,4 +18,4 @@ To start the project run `npm start`.
 
 click the link below
 
-Open [Ifeanyi-github-app](https://ifeanyi-github.netlify.app/) to view it in the browser.
+Open [Ifeanyi-github-app](https://ifeanyi-typescript-github.netlify.app/) to view it in the browser.

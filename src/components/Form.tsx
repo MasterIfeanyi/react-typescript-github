@@ -39,7 +39,6 @@ const Form = ({setData}: FormProps) => {
     <div className="container">
         <div className="row">
             <div className="col-12 text-center">
-                <h1 className="h3">Profile Finder for GitHub</h1>
                 <p>Check out the repos, followers and more, just by entering a username</p>
             </div>
         </div>

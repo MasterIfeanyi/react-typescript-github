@@ -1,12 +1,12 @@
 ## Description
 
-This is a simple web application that allows a user to obtain public information about a GitHub user. I utilized the GitHub API.
+This is a simple web application that allows a user to obtain public information about a GitHub user.
 
-This project was built using typescript.
+I utilized the Github API [github](https://api.github.com/).
 
 ## React
 
-This project was bootstrapped with react (web framework) create-react-app. `npx create-react-app . --template typescript`
+This project was bootstrapped with react (web framework) and typescript. `npx create-react-app . --template typescript`
 
 ## Project Set-up
 

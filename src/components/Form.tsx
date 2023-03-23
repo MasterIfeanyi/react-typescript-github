@@ -37,18 +37,12 @@ const Form = ({setData}: FormProps) => {
 
   return (
     <div className="container">
-        <div className="row">
-            <div className="col-12 text-center">
-                <p>Check out the repos, followers and more, just by entering a username</p>
-            </div>
-        </div>
-
 
         <div className="row d-flex justify-content-center">
             <div className="col-md-6 my-3">
                 <form action="" className="row" onSubmit={handleSubmit}>
                     <div className="form-group col-12 mb-3">
-                        <label className="form-label h5">Username</label>
+                        
                         <input
                             required
                             type="text"
